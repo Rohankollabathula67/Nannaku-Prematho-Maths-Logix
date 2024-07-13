@@ -7,7 +7,6 @@ def nth_person_alive(n):
             toNegative = powers_of_2[j-1]
             break
     return (n - toNegative)*2 + 1
-    print(toNegative)
         
 n = 100
 result = nth_person_alive(n)
